@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+img{
+    width: 400px;
+    margin:50px auto;
+}
+.hero{
+    font-size: 30px;
+    font-weight: bold;
+}
+.input{
+    width: 40%;
+  
+    font-size: 20px;
+    border: 1px solid rgb(196, 179, 179);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 18px;
+
+}
+button{
+    width: 30%;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.sign-up{
+color: black;
+}
+.terms-and-c{
+color: gray;
+}
+
+
+
+
+.end{
+    color: gray;
+}
