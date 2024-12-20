@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"); /* You can change this to any background image */
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 210vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+p {
+  text-align: center;
+  margin: 25px 0px;
+  font-size: 1.1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #33333398;
+  color: rgba(255, 255, 255, 0.474);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf4f83;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #31ea3a47;
+}
+input:hover {
+  background-color: #9f9f9f58;
+  color: rgb(255, 255, 255);
+  font-size: bold;
+}
+.labbl:hover {
+  color: rgba(255, 255, 255, 0.57);
+}
+/* p:hover {
+  color: rgba(255, 255, 255, 0.57);
+} */
+.suhhes {
+  margin: 20px 0px;
+  font-size: 16px;
+}
